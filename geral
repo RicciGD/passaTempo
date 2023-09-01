@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSSs/SiGe.css">
+    <link rel="icon" type="image/png" href="imgs/ok.jpg">
+    <title>Let Show</title>
+</head>
+<body>
+  <header>
+            <div class="bemV"><!--Ageitar um menuzinho-->
+          <h1>Bem vindo Querido EU</h1>
+        <button id="btnConfi"><h3>Configuracoes</h3></button>
+        <h4><a href="ProfiPerfil.html">Perfil Proficional</a></h4>
+            </div>
+  </header>   <br/><br/>
+      <!------------------Desenhos------------------------------->
+<center>      <hr class="litle">      
+<br/>
+    <h2>Minhas Artes</h2> 
+
+<div class="migi" id="mages">
+  <div><img src="imgs/logotipo systen.png"></div>
+      <div><img src="imgs/Paperpared.png"></div>
+      <div><img src="imgs/Icone Meu.png"></div>
+    <div><img src="imgs/Base Central do Planeta.jpg"></div>
+    <div><img src="imgs/IlhaDeOutono.png"></div>
+      <div><img src="imgs/8e92cc47-0e8f-45a8-8de8-6cac510872ad.jpg" width="60%"></div>
+         <div><img src="imgs/neobaka.jfif"></div>
+        <div><img src="imgs/meg.jpg"></div>
+</div></center>
+<br/><br/><br/>
+
+<div class="text">
+<p>Welcome, let see if im good at English,i will talk about Diana from League of Legends because is a character who a like very much of the mecanic in the game,
+he is one of the only character melee whit AP, and his story conquist me, see him conection whit Leona, friends who became enemys because of their positions.
+She net protect the peoples of moon.</p>
+<p>Well we have Hari too, she is good at Spolke and her skills is very good to punish e escape from danger.
+</div>
+<br/><br/>
+
+<center><div class="games">
+  <h2>Jogos que eu adoro e Recomendo</h2><br/>
+  <table>
+    <tr>
+      <th>-Minecraft-</th>
+      <th>-Stardew Valley-</th>
+    </tr>
+    <tr>
+      <td><img src="imgs/Minecraft.png" width="95%"></td>
+      <td><img src="imgs/stardew valley.avif" width="100%"></td>
+    </tr>
+    <tr>
+      <th>-Omori-</th>
+      <th>-Undertale-</th>
+    </tr>
+    <tr>
+      <td><img src="imgs/Omori.jpg" width="100%"></td>
+      <td><img src="imgs/undertaPeper.png" width="100%"></td>
+    </tr>
+ </table>
+</div></center><br/><br/>
+
+<center><div class="mulCol">
+    <h1>links Uteis</h1>
+  </div>
+  <div class="links">
+    <a href="https://cssgradient.io/">cssgradient</a>
+    <a href="https://phosphoricons.com/">phosphoricons</a>
+    <a href="https://www.pixilart.com/">pixilart</a>
+  </div>
+</center>
+
+<br/>
+
+<hr>
+<div img align="right"> <a href="#"><img src="imgs/botao_voltar.jpg" width="3%" /></a></div>
+  <h4>Matheus Ricci 2022- &copyTodos os direitos resevados.</h4>
+<br/></div>
+</body>
+</html>
