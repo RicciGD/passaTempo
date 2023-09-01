@@ -1,0 +1,238 @@
+@font-face {
+    font-family:Minecraft;
+    src: url(Minercraftory.ttf);
+}
+@font-face {
+    font-family:Enchant;
+    src: url(minecraft-enchantment.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(#4fbdc1,#86fbff,#86ff,#653df8,#1a16f5,#156ec2);
+}/*radial-gradient()*/
+
+.bemV{
+    width: 100%;
+    min-height: 5rem;
+    max-height: 8rem;
+    padding: 3px 0 3px 0;
+    background: linear-gradient(rgb(65, 211, 255),rgb(39, 176, 255),rgb(49, 255, 42),rgb(179, 131, 27));
+    border-radius: 0px 0px 50px 50px;
+    font-family: 'Minecraft';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bemV h1{
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.games{
+    width: 80%;
+    height: 10px 5rem;
+    padding: 5px 5px;
+    background: rgb(0,0,0);
+    background: linear-gradient(transparent 0%, #f857a2 8%, #ff3ff9 34%, #fd34db 73%, #e92e85 99%);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.games:hover{
+    width: 90%;
+    height: 10px 5rem;
+    padding: 5px 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(transparent 0%, #f857a2 8%, #ff3ff9 34%, #fd34db 73%, #e92e85 99%);
+    border-radius: 6px;
+    transition: 0.4s;
+}
+
+a{
+    color: rgb(9, 55, 104);
+    font-style: inherit;
+    transition: 1s;
+}
+a:hover{
+    transition: 1.2s;
+    color: rgb(109, 0, 198);
+    font-style: none;
+}
+
+h2{
+    font-family: Enchant;
+    color: #000;
+    font-style: italic;
+}
+h1, h2, h3, h4, h5{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+}
+td{
+    text-align: center;
+    width: 50%;
+}
+
+th{
+    background: #86fbff;
+}
+
+hr{ 
+    border: solid #000 2px;
+}
+.litle{
+    width: 83%;
+}
+
+
+#mages{
+    width: 80%;
+    height: 21rem;
+    background: linear-gradient(90deg,#ff0000,#ff7505,#fffb05);
+    margin: 2.5rem 0px 1rem 0px;
+    border: solid 3px;
+    display: flex;
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+#mages div{
+    min-width: 21rem;
+    max-height: 28rem;
+    background: none;
+    border: solid 2px;
+    margin-left: 2rem;
+}
+#mages div img{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+  padding:3px 10px 0 10px;
+  color:  black;
+  font-size: 20px;
+  text-indent: 40px;
+}
+
+.text{
+    height: 1rem 15rem;
+    background: linear-gradient(to right,#6099fc,#5ef572,#6099fc);
+    text-align: justify;
+    padding: 3px 5px;
+    border-radius: 15px;
+    border: 2px solid #55071a;
+    box-shadow: rgb(223, 220, 29) 1px 0 10px;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    height: 13px;
+}
+
+::-webkit-scrollbar-track{
+    background: linear-gradient(#44ff54,#2bff4f,#19ff9f,#00ccff);
+
+    margin-block: .5em;
+    width: 100%;
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#3351ff,#6403a5,#6403a5,#3351ff);
+ /*   border: .25px solid #aa7272;*/
+    border-radius: 150vw;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(#6403a5,#3351ff,#3351ff,#6403a5);
+}
+
+
+#mages::-webkit-scrollbar{
+    width: 15px;
+    height: 10px;
+}
+
+#mages::-webkit-scrollbar-track{
+    background: linear-gradient(90deg,#00ff00,#7fff17,#a5fd18,#9aff57);
+
+    margin-block: .5em;
+    width: 100%;
+}
+
+#mages::-webkit-scrollbar-thumb{
+    background:linear-gradient(90deg,#3bff3b,#503df8,#503df8,#3bff3b);
+    border-radius: 150vw;
+}
+
+#mages::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(90deg,#503df8,#3bff90,#3bff3b,#3bff90,#503df8);
+}
+@keyframes colors {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.mulCol{
+    padding: 2px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    width: 97%;
+    height: auto;
+    background: linear-gradient(to right,#367ffc,#2ff84a,#f9fc60);
+    animation: colors 3s linear infinite;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    height: auto;
+    width: 97.5%;
+    background: #fff;
+    border-radius: 0px 0px 15px 15px;
+    padding-top: 12px;
+}
+
+.links h1,a{
+    margin-bottom: 8px;
+}
+.links a{
+    color: #1ec8d4;
+}
+.links a:hover{
+    color: darkred;
+}
+
+#btnConfi{
+    background: linear-gradient(90deg,#64ff64,#5b5bff,#5dff5d);
+    opacity: 0.8;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 15px;
+    font-family: 'Minecraft';
+}
+#btnConfi h3{
+    color: #141681;
+    transition: 2s;
+}
+#btnConfi h3:hover{
+    color: #811414;
+    transition: 2s;
+}
